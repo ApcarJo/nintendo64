@@ -58,7 +58,7 @@ body{
     z-index: 1;
 
     /* background-color: blue; */
-    opacity: 0.5;
+    /* opacity: 0.5; */
 
 }
 
@@ -90,6 +90,7 @@ body{
     align-items: center;
 
     flex-direction: column;
+
   
     height: 100%;
     width: 100%;
@@ -97,97 +98,6 @@ body{
     /* opacity: 0.5;
     background-color: greenyellow; */
 
-}
-
-.circuloCruceta{
-    height: 17em;
-    width: 17em;
-    margin-top: 4em;
-    border-radius: 100%;
-    background-image: radial-gradient(circle, rgba(82,82,82,1) 0%, rgb(102, 102, 102) 26%, rgb(175, 175, 175) 89%, grey 100%);
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.square{
-    height: 12em;
-    width: 12em;
-
-    /* background-color: rgb(6, 170, 1); */
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.arrowBox{
-    height: 12em;
-    width: 4em;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    flex-direction: column;
-}
-
-.arrow{
-    height: 4em;
-    width: 4em;
-
-    /* background-color: rgb(6, 170, 1); */
-}
-
-.arrow2{
-    height: 4em;
-    width: 4em;
-
-    border-radius: 10% 0% 0% 10% ;
-    background-color: white;
-    box-shadow: -0.16em -0.18em 0.125em 0.315em rgb(24, 24, 24);
-}
-
-.arrow4{
-    height: 4em;
-    width: 4em;
-
-    border-radius: 10% 10% 0 0;
-    background-color: white;
-    box-shadow: 0em -0.38em 0.1em 0.215em rgb(24, 24, 24);
-}
-
-.arrow5{
-    height: 4em;
-    width: 4em;
-
-    border-radius: 0%;
-    background-color: white;
-}
-
-.arrow6{
-    height: 4em;
-    width: 4em;
-
-    border-radius: 0 0% 10% 10%;
-    background-color: white;
-    box-shadow: 0em 0.28em 0.1em 0.215em rgb(24, 24, 24);
-}
-
-
-.arrow8{
-    height: 4em;
-    width: 4em;
-
-    border-radius: 0 10% 10% 0;
-    background-color: white;
-    box-shadow: 0.3em -0.18em 0.125em 0.215em rgb(24, 24, 24);
-}
-
-.sh{
-    /* border-radius: 15%; */
-    background-color: rgb(60, 64, 75);
 }
 
         /* JOYSTICK & START  */
@@ -207,43 +117,23 @@ body{
 
 }
 
-.shadowButtonStart{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    height: 7em;
-    width: 7em;
-    margin-bottom: 5em;
-
-    border-radius: 100%;
-    /* background-image: radial-gradient(circle, rgba(82,82,82,1) 0%, rgb(102, 102, 102) 26%, rgb(180, 180, 180) 89%, rgb(255, 255, 255) 100%); */
-    box-shadow: inset 0em 0em 0.3em 0.8em #919191;
-}
-
 .buttonStart{
     display: flex;
     justify-content: center;
     align-items: center;
-
     height: 5.5em;
     width: 5.5em;
 
-    
-    background-image: radial-gradient(rgb(255, 0, 0) 40%, rgb(255, 74, 74) 69%, rgb(255, 52, 52) 75%);
+    margin-bottom: 5em;
+    background-color: rgb(255, 0, 0);
     border-radius: 100%;
-    box-shadow: 0.06em 0.05em 0.2em 0.2em #3d3d3d;
+    box-shadow: 0.06em 0.05em 0.2em 0.2em #000000;
 }
 
 .startFont{
     font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
-    letter-spacing: -0.3em;
-    color: red;
     font-weight: bold;
-    text-shadow: 1px 1px rgb(43, 43, 43), 0 1px rgb(68, 68, 68), 1px 0 rgb(168, 168, 168), 0 -1px black;
-    font-size: 2.5em;
-    margin-left: -0.3em;
-    
+    font-size: 3em;
 }
 
 .circle{
@@ -260,24 +150,6 @@ body{
     z-index: 2;
     margin-top: 0em;
 }
-
-.octagonShadow{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    height: 12em;
-    width: 12em;
-
-    background: rgb(117, 117, 117);
-    border-radius: 100%;
-    background-image: radial-gradient(circle, rgba(82,82,82,0) 0%, rgba(186,186,186,0) 46%, rgba(190,190,190,1) 48%, rgba(195,195,195,0) 50%, rgba(207,207,207,0) 100%);
-
-    z-index: 3;
-        transform: rotate(22.5deg);
-    box-shadow: inset 0.06em 0.05em 0.2em 0.2em #797979;
-    
-}
  .octagon{
 
     display: flex;
@@ -288,67 +160,8 @@ body{
     width: 9em;
     z-index: 3;
     clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
-    transform: rotate(45deg);
+    transform: rotate(22.5deg);
     background: rgb(65, 65, 65);
-    
-}
-
-.joystick{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    height: 7em;
-    width: 7em;
-
-    background-color: rgb(219, 219, 219);
-    border-radius: 100%;
-}
-
-.innerCercle1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    height: 6em;
-    width: 6em;
-    
-    background: radial-gradient(circle, rgba(219,219,219,0) 0%, rgba(186,186,186,0) 10%, rgba(190,190,190,1) 16%, rgba(196,196,196,0) 22%, rgba(200,200,200,1) 28%, rgba(201,201,201,0) 34%, rgba(207,207,207,0) 100%);
-    border-radius: 100%;
-}
-
-.innerCercle2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    height: 6em;
-    width: 6em;
-
-    background: radial-gradient(circle, rgba(219,219,219,0) 0%, rgba(186,186,186,0) 30%, rgba(190,190,190,1) 36%, rgba(196,196,196,0) 42%, rgba(200,200,200,1) 48%, rgba(201,201,201,0) 54%, rgba(207,207,207,0) 100%);
-    border-radius: 100%;
-}
-
-.innerCercle3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    height: 6em;
-    width: 6em;
-    
-    background: radial-gradient(circle, rgba(219,219,219,0) 0%, rgba(186,186,186,0) 50%, rgba(190,190,190,1) 56%, rgba(196,196,196,0) 62%, rgba(200,200,200,1) 68%, rgba(201,201,201,0) 74%, rgba(207,207,207,0) 100%);
-    border-radius: 100%;
-
-}
-
-.blackDot{
-    height: 0.8em;
-    width: 0.8em;
-
-    border-radius: 100%;
-    background-color: black;
 }
 
         /* ACTION BUTTONS */
@@ -375,6 +188,10 @@ body{
 
 .gridBoxBottom{
     box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     height: 100%;
     width: 15em;
