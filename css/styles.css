@@ -242,12 +242,28 @@ body{
 }
 
 .arrow2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     height: 4em;
     width: 4em;
 
     border-radius: 10% 0% 0% 10% ;
     background-color: white;
     box-shadow: -0.16em -0.18em 0.125em 0.315em rgb(24, 24, 24);
+}
+
+.aLeft{
+    width: 0;
+	height: 0;
+    background: transparent;
+	border-top: 1.2em solid transparent;
+	border-right: 2.4em solid rgb(38, 41, 48);
+	border-bottom: 1.2em solid transparent;
+    margin-top: 0em;
+    margin-right: 0.8em ;
+    z-index: 2;
 }
 
 .arrow4{
@@ -257,6 +273,20 @@ body{
     border-radius: 10% 10% 0 0;
     background-color: white;
     box-shadow: 0em -0.38em 0.1em 0.215em rgb(24, 24, 24);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aUp{
+    width: 0;
+	height: 0;
+    background: transparent;
+	border-left: 1.2em solid transparent;
+	border-right: 1.2em solid transparent;
+	border-bottom: 2.4em solid rgb(38, 41, 48);
+    margin-bottom: 0.8em;
 }
 
 .arrow5{
@@ -267,6 +297,14 @@ body{
     background-color: white;
 }
 
+.aCenter{
+    height: 100%;
+    width: 100%;
+
+    border-radius: 100%;
+    background-image: radial-gradient(circle, rgb(54, 58, 68) 10%, rgb(38, 41, 48) 45%, rgb(60, 64, 75) 55%);
+}
+
 .arrow6{
     height: 4em;
     width: 4em;
@@ -274,6 +312,20 @@ body{
     border-radius: 0 0% 10% 10%;
     background-color: white;
     box-shadow: 0em 0.28em 0.1em 0.215em rgb(24, 24, 24);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aDown{
+    width: 0;
+	height: 0;
+    background: transparent;
+	border-left: 1.2em solid transparent;
+	border-right: 1.2em solid transparent;
+	border-top: 2.4em solid rgb(38, 41, 48);
+    margin-top: 0.8em;
 }
 
 
@@ -284,6 +336,20 @@ body{
     border-radius: 0 10% 10% 0;
     background-color: white;
     box-shadow: 0.3em -0.18em 0.125em 0.215em rgb(24, 24, 24);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aRight{
+    width: 0;
+	height: 0;
+    background: transparent;
+	border-top: 1.2em solid transparent;
+	border-left: 2.4em solid rgb(38, 41, 48);
+	border-bottom: 1.2em solid transparent;
+    margin-left: 0.8em;
 }
 
 .sh{
@@ -577,6 +643,18 @@ body{
     margin-left: 0.9em;
     margin-top: -0.1em;
 }
+
+.yLeft{
+    width: 0;
+    height: 0;
+    background: transparent;
+    border-top: 1.2em solid transparent;
+    border-right: 2.4em solid rgb(38, 41, 48);
+    border-bottom: 1.2em solid transparent;
+    margin-top: 0em;
+    margin-right: 0.8em ;
+    z-index: 2;
+}
 .yellow4{
     height: 4.9em;
     width: 4.9em;
@@ -585,6 +663,16 @@ body{
     margin-right: -0.25em;
     border-radius: 100%;
     background-color: rgb(238, 255, 0);
+}
+
+.yUp{
+    width: 0;
+	height: 0;
+    background: transparent;
+	border-left: 1.2em solid transparent;
+	border-right: 1.2em solid transparent;
+	border-bottom: 2.4em solid rgb(38, 41, 48);
+    margin-bottom: 0.8em;
 }
 
 .yellow5{
@@ -605,12 +693,32 @@ body{
     border-radius: 100%;
     background-color:  rgb(238, 255, 0);
 }
+
+.yDown{
+    width: 0;
+	height: 0;
+    background: transparent;
+	border-left: 1.2em solid transparent;
+	border-right: 1.2em solid transparent;
+	border-top: 2.4em solid rgb(38, 41, 48);
+    margin-top: 0.8em;
+}
 .yellow8{
     height: 4.9em;
     width: 4.9em;
 
     border-radius: 100%;
     background-color:  rgb(238, 255, 0);
+}
+
+.yRight{
+    width: 0;
+	height: 0;
+    background: transparent;
+	border-top: 1.2em solid transparent;
+	border-left: 2.4em solid rgb(38, 41, 48);
+	border-bottom: 1.2em solid transparent;
+    margin-left: 0.8em;
 }
 
 .actionButtons2{
