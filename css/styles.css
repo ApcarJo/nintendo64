@@ -24,14 +24,117 @@ body{
     box-sizing: border-box;
     height: 20%;
     width: 100%;
-    background-color: rgb(6, 170, 1);
-    opacity: 0.5;
+    /* background-color: rgb(6, 170, 1); */
+    /* opacity: 0.5; */
 
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
+
+    /* TRIGGERS & HEAD */
+
+    .boxTriggerL{
+        box-sizing: border-box;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        height: 40em;
+        width: 20em;
+        /* background-color: rgb(211, 233, 13); */
+    }
+    
+    .boxCentralHead{
+        box-sizing: border-box;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        height: 40em;
+        width: 32em;
+        /* background-color: rgb(0, 248, 0); */
+    }
+    
+    .boxTriggerR{
+        box-sizing: border-box;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+    
+        height: 40em;
+        width: 20em;
+        /* background-color: rgb(197, 231, 0); */
+    }
+    
+    .triggerL{
+        height: 5em;
+        width: 20em;
+    
+        margin-top: 25em;
+        border-top-left-radius: 40%;
+        background-color: cyan;
+    }
+    
+    .centralHead{
+        box-sizing: border-box;
+        height: 40em;
+        width: 30em;
+        
+        margin-top: 49em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        opacity: 1;
+        border-radius: 50% 50% 25% 25% / 10% 10% 96% 96%;
+        background-color: rgb(122, 122, 122);
+        clip-path: inset(0% 0% 60% 0%);
+        z-index: 3;
+    }
+
+    .nintendoElip{
+        box-sizing: border-box;
+        height: 4em;
+        width: 17em;
+
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+
+        margin-top: -21.7em;
+        margin-right: 1em;
+        /* background-color: rgb(211, 233, 13); */
+        border-radius: 5em;
+        border: inset 0.5em white;
+    }
+
+    .nintendoBrand{
+
+        height: 100%;
+        width: 100%;
+
+        font-size: 3em;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .triggerR{
+        height: 5em;
+        width: 20em;
+    
+        margin-top: 25em;
+    
+        /* transform:rotate(10deg); */
+        border-top-right-radius: 40%;
+        background-color: cyan;
+    }
 
 .boxCentral{
     height: 65%;
@@ -58,10 +161,8 @@ body{
     z-index: 1;
 
     /* background-color: blue; */
-    opacity: 0.5;
-
+    /* opacity: 0.5; */
 }
-
         /* CUERPO PRINCIPAL DEL MANDO  */
 
   .mainBody1{
@@ -111,7 +212,7 @@ body{
     align-items: center;
 }
 
-.square{
+.squareCruceta{
     height: 12em;
     width: 12em;
 
@@ -200,10 +301,47 @@ body{
 
     height: 100%;
     width: 100%;
-    margin-bottom: -30em;
+    margin-bottom: 0em;
 
-    /* opacity: 0.5;
-    background-color: greenyellow; */
+    /* opacity: 0.5; */
+    /* background-color: greenyellow; */
+
+}
+
+.squareTop{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* background-color: rgb(237, 241, 0); */
+}
+
+.squareMid{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* background-color: turquoise; */
+
+}
+
+.squareBot{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* background-color: rgb(0, 226, 49); */
+
+
 
 }
 
@@ -214,11 +352,12 @@ body{
 
     height: 7em;
     width: 7em;
-    margin-bottom: 5em;
 
+    margin-bottom: -9em;
+    margin-left: 1em; 
     border-radius: 100%;
     /* background-image: radial-gradient(circle, rgba(82,82,82,1) 0%, rgb(102, 102, 102) 26%, rgb(180, 180, 180) 89%, rgb(255, 255, 255) 100%); */
-    box-shadow: inset 0em 0em 0.3em 0.8em #919191;
+    box-shadow: inset 0em 0em 0.3em 0.8em rgb(138, 138, 138);
 }
 
 .buttonStart{
@@ -230,9 +369,9 @@ body{
     width: 5.5em;
 
     
-    background-image: radial-gradient(rgb(255, 0, 0) 40%, rgb(255, 74, 74) 69%, rgb(255, 52, 52) 75%);
+    background-image: radial-gradient(rgb(255, 87, 87) 35%, rgb(255, 27, 27) 75%, rgb(255, 0, 0) 75%);
     border-radius: 100%;
-    box-shadow: 0.06em 0.05em 0.2em 0.2em #3d3d3d;
+    box-shadow: 0.06em 0.05em 0.2em 0.2em black;
 }
 
 .startFont{
@@ -256,9 +395,10 @@ body{
 
     border-radius: 100%;
     background-image: radial-gradient(circle, rgb(179, 179, 179) 35%, rgb(116, 116, 116) 45%, rgb(53, 53, 53) 100%);
-    border: solid 0.2em black;
+    box-shadow: 0em 0em 0.175em 0.215em rgb(24, 24, 24);
     z-index: 2;
-    margin-top: 0em;
+    margin-bottom: -20em;
+    margin-left: 1em;
 }
 
 .octagonShadow{
@@ -274,7 +414,7 @@ body{
     background-image: radial-gradient(circle, rgba(82,82,82,0) 0%, rgba(186,186,186,0) 46%, rgba(190,190,190,1) 48%, rgba(195,195,195,0) 50%, rgba(207,207,207,0) 100%);
 
     z-index: 3;
-        transform: rotate(22.5deg);
+    transform: rotate(22.5deg);
     box-shadow: inset 0.06em 0.05em 0.2em 0.2em #797979;
     
 }
@@ -364,11 +504,161 @@ body{
     height: 100%;
     width: 100%;
 
-    /* opacity: 0.5;
-    background-color: greenyellow; */
+    /* opacity: 0.5; */
+    /* background-color: greenyellow; */
 
 }
 
+.actionButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+    height: 100%;
+    width: 100%;
+
+    /* background-color: brown; */
+    z-index: 3;
+}
+
+.yellowBox{
+    height: 21.4em;
+    width: 21.4em;
+    
+    margin-top: 3em;
+    /* background-color: rgb(6, 170, 1); */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yellowCercle{
+    height: 10.7em;
+    width: 10.7em;
+    margin-top: 8em;
+    margin-right: -2em;
+    border-radius: 100%;
+    border: solid 0.5em white;
+        
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.actionBox{
+    height: 21.4em;
+    width: 5em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: -3em ;
+    
+    flex-direction: column;
+}
+
+.yellow{
+    height: 4.9em;
+    width: 4.9em;
+
+    border-radius: 100%;
+    /* background-color: rgb(6, 170, 1); */
+}
+.yellow2{
+    height: 4.9em;
+    width: 4.9em;
+
+    border-radius: 100%;
+    background-color: rgb(238, 255, 0);
+    margin-left: 0.9em;
+    margin-top: -0.1em;
+}
+.yellow4{
+    height: 4.9em;
+    width: 4.9em;
+
+    margin-top: 0.65em;
+    margin-right: -0.25em;
+    border-radius: 100%;
+    background-color: rgb(238, 255, 0);
+}
+
+.yellow5{
+    height: 4.9em;
+    width: 4em;
+
+    margin-top: 0em;
+    margin-right: 0em;
+    border-radius: 100%;
+    /* background-color: rgb(238, 255, 0); */
+}
+
+.yellow6{
+    height: 4.9em;
+    width: 4.9em;
+
+    margin-top: -1em;
+    border-radius: 100%;
+    background-color:  rgb(238, 255, 0);
+}
+.yellow8{
+    height: 4.9em;
+    width: 4.9em;
+
+    border-radius: 100%;
+    background-color:  rgb(238, 255, 0);
+}
+
+.actionButtons2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    width: 100%;
+
+    /* background-color: purple; */
+}
+.AB{
+    height: 15em;
+    width: 15em;
+
+    /* background-color: blue; */
+
+    margin-top: -5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.buttonA{
+    height: 5em;
+    width: 5em;
+
+    margin-top: -5em;
+    border-radius: 100%;
+    background-color: white;
+}
+
+.spaceAB{
+    height: 3em;
+    width: 3em;
+
+    background-color: teal;
+}
+
+.buttonB{
+    height: 5em;
+    width: 5em;
+    border-radius: 100%;
+    background-color: white;
+}
 
 
         /* BOX DE LOS AGARRES DEL MANDO */
@@ -471,44 +761,4 @@ body{
 }
 
 
-.boxTriggerL{
-    box-sizing: border-box;
-    height: 20em;
-    width: 20em;
-    background-color: rgb(211, 233, 13);
-}
 
-.boxCentralHead{
-    box-sizing: border-box;
-    height: 40em;
-    width: 32em;
-    background-color: rgb(0, 248, 0);
-}
-
-.boxTriggerR{
-    box-sizing: border-box;
-    height: 20em;
-    width: 20em;
-    background-color: rgb(197, 231, 0);
-}
-
-
-.triggerL{
-    height: 5em;
-    width: 20em;
-    border-top-left-radius: 40%;
-    /* background-color: cyan; */
-}
-
-.centralHead{
-    box-sizing: border-box;
-    height: 40em;
-    width: 35em;
-}
-
-.triggerR{
-    height: 5em;
-    width: 20em;
-    border-top-right-radius: 40%;
-    /* background-color: cyan; */
-}
