@@ -792,7 +792,7 @@ body{
 
     height: 45em;
     width: 22.5em;
-    z-index: 5;
+    z-index: 2;
     background-image: linear-gradient(rgb(175, 175, 175) 25%, rgb(175, 175, 175));
     /* opacity: 0.5; */
     border-radius: 50% 50% 50% 50% / 0% 0% 100% 100%;
@@ -835,6 +835,7 @@ body{
     /* opacity: 0.5; */
     margin-top: 1.7em;
     margin-right: 1.5em;
+    z-index: 3;
     
     /* background-color: darkgreen; */
 }
