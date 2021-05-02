@@ -770,13 +770,26 @@ body{
 }
 
 .yellow5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 4.9em;
-    width: 4em;
+    width: 4.9em;
 
     margin-top: 0em;
     margin-right: 0em;
     border-radius: 100%;
     /* background-color: rgb(238, 255, 0); */
+}
+
+#letterC{
+    font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: rgb(134, 134, 134);
+    font-weight: bold;
+    text-shadow: 1px 1px rgb(43, 43, 43), 0 1px rgb(68, 68, 68), 1px 0 rgb(168, 168, 168), 0 -1px black;
+    font-size: 3.5em;
+    margin-top: 1.2em;
+    margin-left: 0em;
 }
 
 .yellow6{
@@ -861,7 +874,7 @@ body{
     border-width: 0.01em 0.03em;
     box-shadow: 0.06em 0.05em 0.2em 0.2em black;
 
-    z-index: 1;
+    z-index: 2;
     margin-top: -12em;
     margin-left: -15em ;
     
@@ -879,15 +892,14 @@ body{
 
  .spaceAB{
     height: 1.5em;
-    width: 0.6em;
-    border: solid 0.2em rgba(59, 59, 59, 0.61);
-    /* border-left: solid 0.5em rgba(59, 59, 59, 0.61) ; */
-    background-color: rgb(59, 59, 59) ;
-    /* box-shadow: inset 0em 0.01em 0.2em 0.01em rgb(32, 32, 32); */
+    width: 0em;
+
     margin-top: -6.2em;
     margin-left: -0.8em;
     transform: rotate(135deg);
     z-index: 1;
+    border-right: solid 0.8em rgb(104, 104, 104);
+    box-shadow: inset 0em 0.01em 0.2em 0.04em rgb(240, 240, 240);
 } 
 
 .buttonA{
@@ -1099,5 +1111,10 @@ body{
     border-width: 0.1em 0.3em;   
 }
 
-
-
+.buttonStart:active{
+    height: 4.5em;
+    width: 4.5em;
+}
+.buttonStart:active .startFont{
+    font-size: 2em;
+}
