@@ -43,7 +43,7 @@ body{
         align-items: center;
     
         height: 40em;
-        width: 30em;
+        width: 25em;
         /* background-color: rgb(211, 233, 13); */
     }
     
@@ -53,7 +53,7 @@ body{
         align-items: center;
     
         height: 40em;
-        width: 32em;
+        width: 40em;
         /* background-color: rgb(0, 248, 0); */
     }
     
@@ -74,40 +74,41 @@ body{
         height: 10em;
         width: 25em;
     
-        margin-top: 27em;
-        margin-right: -4em;
-        border-top-left-radius: 40%;
+        margin-top: 26em;
+        margin-right: -8em;
+        /* border-top-left-radius: 40%; */
     
-        /* border-radius: 35% 0% 0% 0% / 25% 0% 100% 100%; */
+        border-radius: 65% 0% 0% 0% / 45% 0% 100% 100%;
         background-color: rgb(60, 64, 75);
-        border-top: solid 0.5em grey;
-        /* box-shadow: inset 0em 0em 0.2em 0.5em white; */
-        border-width: 0.5em;
+        border-top: solid 0.3em rgb(90, 90, 90);
+        box-shadow: inset 0em 0em 0.1em 0.2em rgb(172, 172, 172);
+        clip-path: inset(0% 0% 0% 1%);
         z-index: 1;
         transform: rotate(-7deg);
     }
     
     .centralHead{
+        box-sizing: border-box;
         display: flex;
         justify-content: center;
         align-items: center;
         height: 40em;
-        width: 32em;
+        width: 30em;
         
-        margin-top: 46.5em;        
+        margin-top: 46em;
+        margin-left: 0em;       
         /* opacity: 0.5; */
-        background-image: linear-gradient(rgb(119, 119, 119), rgb(175, 175, 175));
+        background-image: linear-gradient(rgb(119, 119, 119) 10%, rgb(175, 175, 175) 100%);
         border-radius: 50% 50% 50% 50% / 10% 10% 96% 96%;
 
         background-color: rgb(122, 122, 122);
-        /* border-width: 0.1em 3em; */
-        /* border-color: rgb(175, 175, 175) rgb(175, 175, 175) transparent transparent; */
         clip-path: inset(0% 0% 50% 0%);
         z-index: 3;
         /* box-shadow: inset 0em 0em 0.1em 1em rgba(240, 240, 240, 0.548); */
         border-top: solid 0.5em rgb(192, 192, 192);
         border-right: solid 0.5em rgb(72, 77, 90);
         border-left: solid 0.5em rgb(72, 77, 90);
+        
         /* box-shadow: 0em 0em 0.125em 2em rgb(24, 24, 24); */
     }
 
@@ -147,16 +148,20 @@ body{
     }
     
     .triggerR{
-        height: 5em;
-        width: 20em;
+        height: 10em;
+        width: 25em;
     
-        margin-top: 23em;
-        margin-left: -5em;
-        /* opacity: 0.5; */
-        /* transform:rotate(10deg); */
-        border-top-right-radius: 40%;
-        /* border-radius: 0% 28% 0% 0% / 0% 10% 100% 0% ; */
+        margin-top: 26.5em;
+        margin-left: -8em;
+        
+        border-radius: 0% 65% 0% 0% / 0% 45% 100% 0% ;
+        
         background-color: rgb(60, 64, 75);
+        border-top: solid 0.3em rgb(90, 90, 90);
+        box-shadow: inset 0em 0em 0.1em 0.2em rgb(172, 172, 172);
+        clip-path: inset(0% 1% 0% 0%);
+        z-index: 1;
+        transform: rotate(7deg);
     }
 
 .boxCentral{
@@ -173,7 +178,7 @@ body{
 
         /* CUERPO PRINCIPAL DEL MANDO  */
 
-  .mainBody1{
+  .mainBody{
     /* box-sizing: border-box; */
     display: flex;
     justify-content: center;
@@ -1033,9 +1038,9 @@ body{
     border-bottom-left-radius: 0%;
     border-bottom-right-radius: 0%;
     border-color: rgb(175, 175, 175) rgb(175, 175, 175) transparent transparent;
-    box-shadow: inset -0.1em 0.1em 0.1em 0.05em rgb(114, 114, 114);
+    box-shadow: inset -0.15em 0.15em 0.1em 0.02em rgb(114, 114, 114);
     /* opacity: 0.5; */
-    margin-top: 1.9em;
+    margin-top: 2.4em;
     margin-right: -8.8em;
     z-index: 4;
     /* background-color: darkgreen; */
@@ -1052,10 +1057,10 @@ body{
     border-bottom-left-radius: 0%;
     border-bottom-right-radius: 0%;
     border-color: rgb(175, 175, 175) transparent transparent rgb(175, 175, 175);
-    box-shadow: inset 0.1em 0.1em 0.1em 0.05em rgb(116, 116, 116);
+    box-shadow: inset 0.15em 0.15em 0.1em 0.02em rgb(116, 116, 116);
     /* opacity: 0.5; */
-    margin-top: -47.2em;
-    margin-left: -28.8em;
+    margin-top: -46.6em;
+    margin-left: -28.9em;
     z-index: 3;
     
     /* background-color: darkgreen; */
