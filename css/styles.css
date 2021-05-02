@@ -72,12 +72,18 @@ body{
     }
     
     .triggerL{
-        height: 5em;
+        height: 20em;
         width: 20em;
     
-        margin-top: 25em;
-        border-top-left-radius: 40%;
+        margin-top: 23em;
+        margin-right: -5em;
+        /* border-top-left-radius: 40%;
+         */
+        border-radius: 28% 0% 0% 0% / 11% 0% 100% 100% ;
         background-color: rgb(60, 64, 75);
+
+        z-index: 1;
+        /* transform: rotate(-12deg); */
         /* opacity: 0.5; */
     }
     
@@ -105,12 +111,11 @@ body{
 
     .nintendoElip{
         box-sizing: border-box;
-        height: 4em;
-        width: 17em;
-
         display: flex;
         justify-content: center;
         align-items: center; 
+        height: 4em;
+        width: 17em;
 
         margin-top: -23em;
         margin-right: 1em;
@@ -129,20 +134,26 @@ body{
         height: 100%;
         width: 100%;
 
-        font-size: 3em;
-        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 0.05em;
+        color: rgba(59, 59, 59, 0.61);
+        font-size: 2.5em;
+        letter-spacing: 0.01em;
+        font-family: pretendo;
         border-radius: 5em;
         box-shadow: inset 0em 0.01em 0.03em 0.01em rgb(240, 240, 240);
+        text-shadow: -1px 0 rgb(182, 182, 182), 0 1px rgb(163, 163, 163), 1px 0 black, 0 -1px black;
     }
     
     .triggerR{
         height: 5em;
         width: 20em;
     
-        margin-top: 25em;
+        margin-top: 23em;
+        margin-left: -5em;
         /* opacity: 0.5; */
         /* transform:rotate(10deg); */
         border-top-right-radius: 40%;
+        /* border-radius: 0% 28% 0% 0% / 0% 10% 100% 0% ; */
         background-color: rgb(60, 64, 75);
     }
 
