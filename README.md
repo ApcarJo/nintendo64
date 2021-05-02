@@ -23,3 +23,4 @@ Fecha máxima de entrega: 2 Mayo de 2021 a las 23:59
 
 - Réplica visual de un mando o videoconsola usando html5 y css3
 - Mando: Nintendo 64
+- Visualiza el resultado con navegador chrome, zoom al 75%
