@@ -1,5 +1,5 @@
 
-Primer proyecto para la Bootcamp de Full Stack Developer de Geekshubs
+###Primer proyecto para la Bootcamp de Full Stack Developer de Geekshubs
 
 
 ### Editor:  Visual Studio Code
@@ -21,6 +21,7 @@ Primer proyecto para la Bootcamp de Full Stack Developer de Geekshubs
 Fecha de inicio: 28 Abril de 2021
 Fecha máxima de entrega: 2 Mayo de 2021 a las 23:59
 
-- Réplica visual de un mando o videoconsola usando html5 y css3
+- Réplica visual de un mando o videoconsola usando HTML5 y CSS3
 - Mando: Nintendo 64
-- Visualiza el resultado con navegador chrome, zoom al 75%
+- Visualiza el resultado en el siguiente enlace:
+- https://apcarjo.github.io/nintendo64/
