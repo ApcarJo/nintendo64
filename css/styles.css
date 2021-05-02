@@ -78,22 +78,28 @@ body{
         margin-top: 25em;
         border-top-left-radius: 40%;
         background-color: cyan;
+        /* opacity: 0.5; */
     }
     
     .centralHead{
         box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         height: 40em;
         width: 30em;
         
         margin-top: 49em;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         
-        opacity: 1;
-        border-radius: 50% 50% 25% 25% / 10% 10% 96% 96%;
+        
+        /* opacity: 0.5; */
+        background-image: linear-gradient(rgb(119, 119, 119), rgb(175, 175, 175));
+        border-radius: 50% 50% 50% 50% / 10% 10% 96% 96%;
+
         background-color: rgb(122, 122, 122);
-        clip-path: inset(0% 0% 60% 0%);
+        border-width: 2.95em 3em;
+        border-color: rgb(175, 175, 175) rgb(175, 175, 175) transparent transparent;
+        clip-path: inset(0% 0% 50% 0%);
         z-index: 3;
     }
 
@@ -106,7 +112,7 @@ body{
         justify-content: center;
         align-items: center; 
 
-        margin-top: -21.7em;
+        margin-top: -23em;
         margin-right: 1em;
         /* background-color: rgb(211, 233, 13); */
         border-radius: 5em;
@@ -114,14 +120,14 @@ body{
     }
 
     .nintendoBrand{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
 
         height: 100%;
         width: 100%;
 
         font-size: 3em;
-        display: flex;
-        justify-content: center;
-        align-items: center; 
         font-family: Arial, Helvetica, sans-serif;
     }
     
@@ -130,7 +136,7 @@ body{
         width: 20em;
     
         margin-top: 25em;
-    
+        /* opacity: 0.5; */
         /* transform:rotate(10deg); */
         border-top-right-radius: 40%;
         background-color: cyan;
@@ -150,14 +156,13 @@ body{
 }
 
 .boxBottom{
-    height: 50em;
-    width: 100%;
-
     box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: center;
 
+    height: 50em;
+    width: 100%; 
     z-index: 1;
 
     /* background-color: blue; */
@@ -179,12 +184,13 @@ body{
     z-index: 2;
     background-image: linear-gradient(rgb(119, 119, 119), rgb(175, 175, 175));
     /* opacity: 0.5; */
-    border-radius: 28% 28% 28% 28% / 48% 48% 48% 48% ;
+    border-radius: 28% 28% 28% 28% / 46% 46% 46% 46% ;
     margin-top: -3em;
    /* border-top:  outset rgb(95, 95, 95) ; */
-    border: solid 0.2em rgb(61, 61, 61);
+    /* border: solid 0.2em rgb(61, 61, 61); */
     border-color: rgba(255, 255, 255, 0.332)  rgba(255, 255, 255, 0.137) transparent  transparent;
     border-width: 0.4em 0.5em;   
+    box-shadow: inset 0em 0.01em 0.3em 0.1em rgba(240, 240, 240, 0.548);
     /* clip-path: inset(0% 0% 1% 0%); */
 }  
         /* CROSSHEAD BOX */
@@ -219,6 +225,7 @@ body{
     border: solid 0.2em rgb(61, 61, 61);
     border-color: rgba(255, 255, 255, 0.332)  transparent  transparent rgba(255, 255, 255, 0.137);
     border-width: 0.008em 0.03em;   
+    box-shadow: inset 0em 0.01em 0.05em 0em rgba(240, 240, 240, 0.548);
 }
 
 .squareCruceta{
@@ -653,28 +660,28 @@ body{
 }
 
 .yellowCercle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     height: 10.7em;
     width: 10.7em;
     margin-top: 8em;
     margin-right: -2em;
     border-radius: 100%;
-    border: double 0.5em rgb(59, 59, 59);
-        
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    border: solid 0.5em rgb(59, 59, 59);
+    box-shadow: inset 0em 0.01em 0.2em 0.04em rgb(240, 240, 240);
 }
 
 .actionBox{
-    height: 21.4em;
-    width: 5em;
-
     display: flex;
     justify-content: center;
     align-items: center;
 
+    height: 21.4em;
+    width: 5em;
     margin-top: -3em ;
-    
+
     flex-direction: column;
 }
 
@@ -718,7 +725,7 @@ body{
     height: 4.9em;
     width: 4.9em;
 
-    margin-top: 0.65em;
+    margin-bottom: -.65em;
     margin-right: -0.25em;
     border-radius: 100%;
     background-color: rgb(255, 217, 0);
@@ -752,7 +759,7 @@ body{
     height: 4.9em;
     width: 4.9em;
 
-    margin-top: -1em;
+    margin-bottom: 0em;
     border-radius: 100%;
     background-color:  rgb(255, 217, 0);
 }
@@ -881,6 +888,7 @@ body{
     border-bottom-left-radius: 0%;
     border-bottom-right-radius: 0%;
     border-color: rgb(175, 175, 175) rgb(175, 175, 175) transparent transparent;
+    /* box-shadow: inset -1em -0.02em 0.em 0.1em rgba(240, 240, 240, 0.548); */
     /* opacity: 0.5; */
     margin-top: 1.7em;
     margin-left: 1.5em;
