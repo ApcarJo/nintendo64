@@ -1,8 +1,8 @@
 
 body{
     all: unset;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
 
     box-sizing: border-box;
     display: flex;
@@ -14,27 +14,16 @@ body{
     background-position: center;
     background-repeat: repeat;
     background-color: rgba(0, 0, 0, 0.137);
-    background-size: 49%;
+    background-size: 90%;
+    background-position-y: 16em;
 
 }
 
-main{
-    all: unset;
-    height: 100%;
-    width: 100%;
-
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-}
     /* STRUCTURE BOXES */
 
 .boxTop{
     box-sizing: border-box;
-    height: 20%;
+    height: 30em;
     width: 100%;
     /* background-color: rgb(6, 170, 1); */
     /* opacity: 0.5; */
@@ -42,6 +31,8 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+
+    /* background-color: blue; */
 
 }
 
@@ -170,7 +161,7 @@ main{
     }
 
 .boxCentral{
-    height: 65%;
+    height: 32em;
     width: 100%;
 
     box-sizing: border-box;
@@ -182,19 +173,6 @@ main{
     /* opacity: 0.5; */
 }
 
-.boxBottom{
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    height: 50em;
-    width: 100%; 
-    z-index: 1;
-
-    /* background-color: blue; */
-    /* opacity: 0.5; */
-}
         /* CUERPO PRINCIPAL DEL MANDO  */
 
   .mainBody1{
@@ -222,17 +200,18 @@ main{
 }  
         /* CROSSHEAD BOX */
 .a1{
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
 
     flex-direction: column;
   
-    height: 100%;
+    height: 30em;
     width: 100%;
 
-    /* opacity: 0.5;
-    background-color: greenyellow; */
+    opacity: 0.5;
+    /* background-color: greenyellow;  */
 }
         /* CROSSHEAD */
 
@@ -435,7 +414,7 @@ main{
 
     flex-direction: column;
 
-    height: 100%;
+    height: 30em;
     width: 100%;
     margin-bottom: 0em;
 
@@ -444,7 +423,7 @@ main{
 }
 
 .squareTop{
-    height: 100%;
+    height: 10em;
     width: 100%;
 
     display: flex;
@@ -455,7 +434,7 @@ main{
 }
 
 .squareMid{
-    height: 100%;
+    height: 10em;
     width: 100%;
 
     display: flex;
@@ -466,7 +445,7 @@ main{
 }
 
 .squareBot{
-    height: 100%;
+    height: 10em;
     width: 100%;
 
     display: flex;
@@ -646,32 +625,32 @@ main{
         /* ACTION BUTTONS */
 
 .a3{
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
 
     flex-direction: column;
 
- 
-    height: 100%;
+    height: 30em;
     width: 100%;
 
     /* opacity: 0.5; */
     /* background-color: greenyellow; */
-
 }
 
 .actionButtons{
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
 
     flex-direction: column;
-
-    height: 100%;
+    margin-bottom: 0em;
+    height: 30em;
     width: 100%;
 
-    /* background-color: brown; */
+    /* background-color: rgb(5, 173, 196); */
     z-index: 3;
 }
 
@@ -849,36 +828,17 @@ main{
 }
 
 .actionButtons2{
-
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
 
-    height: 100%;
+    height: 20em;
     width: 100%;
-
     /* background-color: purple; */
 }
-.AB{
+.buttonB{
     box-sizing: border-box;
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-
-    flex-direction: column;
-
-    height: 15em;
-    width: 15em;
-
-    /* background-color: blue; */
-
-    margin-top: -4em;
-    
-
-}
-
-.buttonA{
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -886,16 +846,16 @@ main{
     height: 5.5em;
     width: 5.5em;
 
-    z-index: 1;
-    margin-top: 1em;
-    margin-left: -18em ;
-
     background-image: radial-gradient(rgb(1, 104, 1) 15%, rgb(0, 104, 0) 55%, rgb(0, 87, 0) 75%);
     border-radius: 100%;
     border: solid 0.2em rgb(255, 0, 0);
     border-color: rgba(255, 255, 255, 0.418) rgba(255, 255, 255, 0.432) transparent transparent;
     border-width: 0.01em 0.03em;
     box-shadow: 0.06em 0.05em 0.2em 0.2em black;
+
+    z-index: 1;
+    margin-top: -12em;
+    margin-left: -15em ;
     
 }
 
@@ -909,20 +869,20 @@ main{
     margin-left: -0.7em;
 }
 
-
-
- /* .spaceAB{
-    height: 2em;
-    width: 0.8em;
+ .spaceAB{
+    height: 1.5em;
+    width: 0.6em;
     border: solid 0.2em rgba(59, 59, 59, 0.61);
-    border-left: solid 0.1em rgba(59, 59, 59, 0.61) ;
-    background-color: rgba(59, 59, 59, 0.61) ;
-    box-shadow: inset 0em 0.01em 0.2em 0.01em rgb(240, 240, 240);
-    margin-left: -12em;
+    /* border-left: solid 0.5em rgba(59, 59, 59, 0.61) ; */
+    background-color: rgb(59, 59, 59) ;
+    /* box-shadow: inset 0em 0.01em 0.2em 0.01em rgb(32, 32, 32); */
+    margin-top: -6.2em;
+    margin-left: -0.8em;
     transform: rotate(135deg);
-}  */
+    z-index: 1;
+} 
 
-.buttonB{
+.buttonA{
     
     display: flex;
     justify-content: center;
@@ -939,10 +899,11 @@ main{
     border-color: rgba(255, 255, 255, 0.418) rgba(255, 255, 255, 0.432) transparent transparent;
     border-width: 0.01em 0.03em;
     box-shadow: 0.06em 0.05em 0.2em 0.2em black;
-
-    margin-bottom: 3em; 
-    margin-left: -9em;
     background-color: rgb(0, 67, 105);
+
+    margin-top: -1em; 
+    margin-left: -1em;
+    
 }
 
 #letterA{
@@ -952,26 +913,91 @@ main{
     text-shadow: 1px 1px rgb(43, 43, 43), 0 1px rgb(68, 68, 68), 1px 0 rgb(168, 168, 168), 0 -1px black;
     font-size: 3em;
     margin-top: 1.2em;
-    margin-left: -0.7em;
+    margin-left: 0em;
 }
 
         /* BOX DE LOS AGARRES DEL MANDO */
 
-.gridBoxBottom{
+        .boxBottom{
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        
+            height: 50em;
+            width: 100em; 
+            z-index: 1;
+        
+            /* background-color: blue; */
+            /* opacity: 0.5; */
+        }       
+
+.gridBoxBottom1{
+    display: flex;
     box-sizing: border-box;
-
-    height: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 50em;
     width: 15em;
-    margin-top: -20em;
+    z-index: 2;
 
-    z-index: 1;
-            
+    margin-top: -49em;
+    margin-left: 10em;
+    
+    /* background-color: beige; */
+}
+.gridBoxBottom2{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    height: 50em;
+    width: 15em;
+    z-index: 2;
+    margin-top: -49em;
+    
+        
+    /* background-color: beige; */
+}
+.gridBoxBottom3{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    height: 50em;
+    width: 25em;
+    z-index: 2;
+
+    margin-top: -25em;
+    margin-right: 10em;
+    
+    /* background-color: beige; */
+}
+.gridBoxBottom4{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    height: 50em;
+    width: 15em;
+    z-index: 2;
+    /* background-color: beige; */
+}
+.gridBoxBottom5{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    height: 50em;
+    width: 15em;
+    z-index: 2;
+    
     /* background-color: beige; */
 }
 
 
 .centralLeg{
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -982,9 +1008,9 @@ main{
     background-image: linear-gradient(rgb(175, 175, 175) 25%, rgb(175, 175, 175));
     /* opacity: 0.5; */
     border-radius: 50% 50% 50% 50% / 0% 0% 100% 100%;
-    margin-top: -5.8em;
-    margin-left: -3.5em;
-    border: solid 5px;
+    margin-top: 0em;
+    margin-right: 0em;
+    
     border-color: rgb(95, 95, 95);
 }
 
@@ -1002,9 +1028,9 @@ main{
     border-color: rgb(175, 175, 175) rgb(175, 175, 175) transparent transparent;
     /* box-shadow: inset -1em -0.02em 0.em 0.1em rgba(240, 240, 240, 0.548); */
     /* opacity: 0.5; */
-    margin-top: 1.7em;
-    margin-left: 1.5em;
-    z-index: 3;
+    margin-top: 2em;
+    margin-right: -8.6em;
+    z-index: 4;
     /* background-color: darkgreen; */
 }
 
@@ -1020,8 +1046,8 @@ main{
     border-bottom-right-radius: 0%;
     border-color: rgb(175, 175, 175) transparent transparent rgb(175, 175, 175);
     /* opacity: 0.5; */
-    margin-top: 1.7em;
-    margin-right: 1.5em;
+    margin-top: -47em;
+    margin-left: -28.3em;
     z-index: 3;
     
     /* background-color: darkgreen; */
@@ -1034,10 +1060,8 @@ main{
     z-index: 1;
     background-image: radial-gradient(circle, rgb(185, 185, 185) 5%, grey 65%);
     border-radius: 5% 28% 51% 38% / 36% 9% 76% 62% ;
-    border: solid 5px;
-    border-color: rgb(95, 95, 95);
-    margin-top: -9em;
-    margin-left: -0.5em;
+    margin-top: 0em;
+    margin-right: -6em;
     transform: rotate(2deg);
 
 }
@@ -1049,10 +1073,8 @@ main{
     z-index: 1;
     background-image: radial-gradient(circle, rgb(185, 185, 185) 5%, grey 65%);
     border-radius: 28% 10% 38% 51% / 9% 36% 62% 76% ;
-    border: solid 5px;
-    border-color: rgb(95, 95, 95);
-    margin-top: -9em;
-    margin-right: 0em;
+    margin-top: -48em;
+    margin-left: -25em;
     transform: rotate(-2deg);
 }
 
