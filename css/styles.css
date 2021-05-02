@@ -50,9 +50,7 @@ body{
         /* background-color: rgb(211, 233, 13); */
     }
     
-    .boxCentralHead{
-        box-sizing: border-box;
-    
+    .boxCentralHead{    
         display: flex;
         justify-content: center;
         align-items: center;
@@ -91,25 +89,27 @@ body{
     }
     
     .centralHead{
-        box-sizing: border-box;
         display: flex;
         justify-content: center;
         align-items: center;
         height: 40em;
-        width: 30em;
+        width: 32em;
         
-        margin-top: 49em;
-        
-        
+        margin-top: 49em;        
         /* opacity: 0.5; */
         background-image: linear-gradient(rgb(119, 119, 119), rgb(175, 175, 175));
         border-radius: 50% 50% 50% 50% / 10% 10% 96% 96%;
 
         background-color: rgb(122, 122, 122);
-        border-width: 2.95em 3em;
-        border-color: rgb(175, 175, 175) rgb(175, 175, 175) transparent transparent;
+        /* border-width: 0.1em 3em; */
+        /* border-color: rgb(175, 175, 175) rgb(175, 175, 175) transparent transparent; */
         clip-path: inset(0% 0% 50% 0%);
         z-index: 3;
+        /* box-shadow: inset 0em 0em 0.1em 1em rgba(240, 240, 240, 0.548); */
+        border-top: solid 0.5em rgb(60, 64, 75);
+        border-right: solid 0.5em rgb(72, 77, 90);
+        border-left: solid 0.5em rgb(72, 77, 90);
+        box-shadow: 0em 0em 0.125em 2em rgb(24, 24, 24);
     }
 
     .nintendoElip{
@@ -161,14 +161,13 @@ body{
     }
 
 .boxCentral{
-    height: 32em;
-    width: 100%;
-
     box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: center;
 
+    height: 32em;
+    width: 100%;
     /* background-color: brown; */
     /* opacity: 0.5; */
 }
@@ -176,7 +175,7 @@ body{
         /* CUERPO PRINCIPAL DEL MANDO  */
 
   .mainBody1{
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -188,15 +187,17 @@ body{
     
     z-index: 2;
     background-image: linear-gradient(rgb(119, 119, 119), rgb(175, 175, 175));
-    /* opacity: 0.5; */
     border-radius: 28% 28% 28% 28% / 46% 46% 46% 46% ;
     margin-top: -3em;
-   /* border-top:  outset rgb(95, 95, 95) ; */
-    /* border: solid 0.2em rgb(61, 61, 61); */
-    border-color: rgba(255, 255, 255, 0.332)  rgba(255, 255, 255, 0.137) transparent  transparent;
-    border-width: 0.4em 0.5em;   
-    box-shadow: inset 0em 0.01em 0.3em 0.1em rgba(240, 240, 240, 0.548);
-    /* clip-path: inset(0% 0% 1% 0%); */
+    border-top: solid rgb(153, 153, 153);
+    border-width: 0.7em 0.2em;
+    border-right: solid rgb(143, 143, 143);
+    
+    /* border: solid; */
+    /* border-color: rgba(255, 255, 255, 0.332)  rgba(255, 255, 255, 0.137) transparent  transparent; */
+    /* border-width: 0.2em 0.5em;    */
+    /* box-shadow: inset 0em 0.01em 0.3em 0.1em rgba(240, 240, 240, 0.548); */
+
 }  
         /* CROSSHEAD BOX */
 .a1{
@@ -210,7 +211,7 @@ body{
     height: 30em;
     width: 100%;
 
-    opacity: 0.5;
+    /* opacity: 0.5; */
     /* background-color: greenyellow;  */
 }
         /* CROSSHEAD */
@@ -523,10 +524,11 @@ body{
     background-color: rgb(60, 64, 75);
     box-shadow: 0em 0em 0.175em 0.215em rgb(24, 24, 24);
     /* box-shadow: 0.06em 0.05em 0.2em 0.2em black;  */
-    z-index: 2;
+    z-index: 5;
     margin-bottom: -20em;
     margin-left: 1em;
 }
+
 
 .octagonShadow{
     box-sizing: border-box;
@@ -966,7 +968,7 @@ body{
     align-items: center;
     height: 50em;
     width: 25em;
-    z-index: 2;
+    z-index: 4;
 
     margin-top: -25em;
     margin-right: 10em;
@@ -1028,7 +1030,7 @@ body{
     border-color: rgb(175, 175, 175) rgb(175, 175, 175) transparent transparent;
     /* box-shadow: inset -1em -0.02em 0.em 0.1em rgba(240, 240, 240, 0.548); */
     /* opacity: 0.5; */
-    margin-top: 2em;
+    margin-top: 1.9em;
     margin-right: -8.6em;
     z-index: 4;
     /* background-color: darkgreen; */
@@ -1046,8 +1048,8 @@ body{
     border-bottom-right-radius: 0%;
     border-color: rgb(175, 175, 175) transparent transparent rgb(175, 175, 175);
     /* opacity: 0.5; */
-    margin-top: -47em;
-    margin-left: -28.3em;
+    margin-top: -47.2em;
+    margin-left: -28.5em;
     z-index: 3;
     
     /* background-color: darkgreen; */
@@ -1063,6 +1065,10 @@ body{
     margin-top: 0em;
     margin-right: -6em;
     transform: rotate(2deg);
+    box-shadow: inset 0em 0.01em 0.3em 0.1em rgba(240, 240, 240, 0.993);
+    border: solid;
+    border-color: rgb(163, 163, 163)  rgb(138, 138, 138) rgba(168, 168, 168, 0.603)  rgb(92, 92, 92) ;
+    border-width: 0.1em 0.3em;   
 
 }
 
@@ -1076,6 +1082,10 @@ body{
     margin-top: -48em;
     margin-left: -25em;
     transform: rotate(-2deg);
+    box-shadow: inset 0em 0.01em 0.3em 0.1em rgb(218, 218, 218);
+    border: solid;
+    border-color: rgb(92, 92, 92)  rgb(99, 99, 99) rgb(168, 168, 168)  rgb(163, 163, 163) ;
+    border-width: 0.1em 0.3em;   
 }
 
 
