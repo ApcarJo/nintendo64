@@ -891,14 +891,14 @@ body{
 
  .spaceAB{
     height: 1.5em;
-    width: 0em;
+    width: 0.2em;
 
     margin-top: -6.2em;
     margin-left: -0.8em;
     transform: rotate(135deg);
     z-index: 1;
     border-right: solid 0.8em rgb(104, 104, 104);
-    box-shadow: inset 0em 0.01em 0.2em 0.04em rgb(240, 240, 240);
+    box-shadow: inset 0em 0.01em 0.3em 0.04em rgba(240, 240, 240, 0.658);
 } 
 
 .buttonA{
@@ -937,19 +937,19 @@ body{
 
         /* BOX DE LOS AGARRES DEL MANDO */
 
-        .boxBottom{
-            box-sizing: border-box;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+.boxBottom{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    height: 50em;
+    width: 100em; 
+    z-index: 1;
         
-            height: 50em;
-            width: 100em; 
-            z-index: 1;
-        
-            /* background-color: blue; */
-            /* opacity: 0.5; */
-        }       
+    /* background-color: blue; */
+    /* opacity: 0.5; */
+}       
 
 .gridBoxBottom1{
     display: flex;
